@@ -1,42 +1,21 @@
-import {
-  createBrowserRouter,
-  Route,
-  createRoutesFromElements,
-  RouterProvider,
-} from "react-router-dom";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Service from "./Pages/Service";
-import Contacts from "./Pages/Contacts";
-import { RootLayouts } from "./Layouts/RootLayouts";
-import "./Navbar.css";
+import React from 'react'
+import { NavLink,Outlet } from 'react-router-dom'
+import './layout.css'
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<RootLayouts />}>
-      <Route path="home" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="service" element={<Service />} />
-      <Route path="contacts" element={<Contacts />} />
-    </Route>
-  )
-);
 
-const Navbar = () => {
+export const RootLayouts = () => {
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  );
-};
-
-export default Navbar;
-
-/*
-
-    <>
-      <nav className="App-header">
-        <a href="index.html">
+    <div className="root_layout">
+        
+    <nav>
+      <header>
+        
+      <NavLink to='Home'>Home</NavLink>
+      <NavLink to='Service'>Service</NavLink>
+      <NavLink to='contacts'>Contacts</NavLink>
+      <NavLink to='about'>About</NavLink>
+      </header>
+    <a href="index.html">
           <svg
             id="logo-63"
             width="80"
@@ -124,23 +103,10 @@ export default Navbar;
             ></path>
           </svg>
         </a>
-
-        <div>
-          <ul>
-            <li>
-              <a href="/About">About</a>
-            </li>
-            <li>
-              <a href="/Service">Service</a>
-            </li>
-            <li>
-              <a href="/Contacts">Contact</a>
-            </li>
-            <li>
-              <a href="/Home">Home</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </>
-*/
+    </nav>
+    <main>
+        <Outlet/>
+    </main>
+    </div>
+  )
+}

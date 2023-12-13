@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+h3{
+    font-size: 30px;
+    color: black;
+}
+.abouttext{
+    background-color: rgba(0,0,0,0.4);
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.about{
+    float: right;
+}
+.about h3{
+    text-align: center;
+}
+
+.profile {
+    height: 550px;
+    width: 550px;
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    float: left;
+  }
+  .text {
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-family: cursive;
+  }
+  .card {
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 60px;
+    top: 60px;
+    clip-path: circle();
+    align-items: center;
+  }
+  .experience{
+    height: 550px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    float: right;
+    
+
+  }
+  .education{
+    height: 350px;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    background-color:rgba(0, 0, 0, 0.5);
+   
+    border-radius: 50px;
+    float: left;
+
+  }

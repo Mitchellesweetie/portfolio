@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Bubbles from './component/Bubbles/Bubbles';
+import Navbar from './Navbar';
 import './index.css';
-import App from './App';
+
+
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Bubbles/>
+    <Navbar/>
+    
+ 
+    
+   
   </React.StrictMode>
 );
