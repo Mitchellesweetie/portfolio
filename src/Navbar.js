@@ -7,9 +7,9 @@ import {
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Service from "./Pages/Service";
-import Contacts from "./Pages/Contacts";
 import { RootLayouts } from "./Layouts/RootLayouts";
 import "./Navbar.css";
+import Contacts from "./Pages/Contacts";
 
 const router = createBrowserRouter(
   createRoutesFromElements(

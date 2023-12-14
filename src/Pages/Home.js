@@ -5,11 +5,9 @@ const Body = () => {
   return(
     <div>
     <Home1
-    name="Show casing my work"
-    />
-     <Home1
     
     />
+     
     </div>
   )
 };

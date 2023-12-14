@@ -12,7 +12,7 @@ export const RootLayouts = () => {
         
       <NavLink to='Home'>Home</NavLink>
       <NavLink to='Service'>Service</NavLink>
-      <NavLink to='contacts'>Contacts</NavLink>
+      <NavLink to='contacts'>Contact</NavLink>
       <NavLink to='about'>About</NavLink>
       </header>
     <a href="index.html">
@@ -103,6 +103,7 @@ export const RootLayouts = () => {
             ></path>
           </svg>
         </a>
+       
     </nav>
     <main>
         <Outlet/>
