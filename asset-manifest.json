@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e77f0a62.css",
-    "main.js": "/static/js/main.e2960041.js",
-    "static/media/p2.jpg": "/static/media/p2.a00f0d799d603035df37.jpg",
-    "static/media/bub.png": "/static/media/bub.908acbdd0b932b469cd4.png",
-    "index.html": "/index.html",
-    "main.e77f0a62.css.map": "/static/css/main.e77f0a62.css.map",
-    "main.e2960041.js.map": "/static/js/main.e2960041.js.map"
+    "main.css": "/Mitchellesweetie/portfolio/static/css/main.a4f3fdd0.css",
+    "main.js": "/Mitchellesweetie/portfolio/static/js/main.674e2c8c.js",
+    "static/media/p2.jpg": "/Mitchellesweetie/portfolio/static/media/p2.a00f0d799d603035df37.jpg",
+    "static/media/bub.png": "/Mitchellesweetie/portfolio/static/media/bub.908acbdd0b932b469cd4.png",
+    "index.html": "/Mitchellesweetie/portfolio/index.html",
+    "main.a4f3fdd0.css.map": "/Mitchellesweetie/portfolio/static/css/main.a4f3fdd0.css.map",
+    "main.674e2c8c.js.map": "/Mitchellesweetie/portfolio/static/js/main.674e2c8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e77f0a62.css",
-    "static/js/main.e2960041.js"
+    "static/css/main.a4f3fdd0.css",
+    "static/js/main.674e2c8c.js"
   ]
 }
