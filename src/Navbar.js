@@ -13,16 +13,15 @@ import Contacts from "./Pages/Contacts";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<RootLayouts />}>
-      <Route path="home" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="service" element={<Service />} />
-      <Route path="contacts" element={<Contacts />} />
+    <Route path="/" element={<RootLayouts />} errorElement={<RootLayouts/>}>
+      <Route path="home" element={<Home />} errorElement={<RootLayouts/> }/>
+      <Route path="about" element={<About />} errorElement={<RootLayouts/>}/>
+      <Route path="service" element={<Service />}errorElement={<RootLayouts/>} />
+      <Route path="contacts" element={<Contacts />} errorElement={<RootLayouts/>}/>
     </Route>
   )
 );
-
-const Navbar = () => {
+function Navbar(){
   return (
     <>
       <RouterProvider router={router} />

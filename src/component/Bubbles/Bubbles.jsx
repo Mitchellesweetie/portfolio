@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import useViewportSize from "../../useViewPortSize/useViewportSize";
 import drawBubbles from "./drawBubbles";
 
-import Navbar from "../../Navbar";
+
 
 const Bubbles = () => {
   const { width, height } = useViewportSize();
